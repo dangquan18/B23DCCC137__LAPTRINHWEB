@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thêm Phần Tử li</title>
+  </head>
+  <body>
+    <ul id="list">
+      <li>alo1</li>
+      <li>alo2</li>
+    </ul>
+    <button onclick="addListItem()">Thêm</button>
+    <script>
+      function addListItem() {
+        var newListItem = document.createElement("li");
+        newListItem.textContent = "nghe";
+        document.getElementById("list").appendChild(newListItem);
+      }
+    </script>
+  </body>
+</html>

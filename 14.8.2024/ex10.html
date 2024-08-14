@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p class="item">Lorem.</p>
+    <div class="item">Lorem, ipsum.</div>
+    <h1 class="item">Lorem ipsum dolor sit amet.</h1>
+    <div class="kco">day k phai class item</div>
+    <button onclick="changetext()">
+      thay doi doan van cac phan co class la item
+    </button>
+    <script>
+      function changetext() {
+        var a = document.getElementsByClassName("item");
+        for (var i = 0; i < a.length; i++) {
+          a[i].innerHTML = "update item";
+        }
+      }
+    </script>
+  </body>
+</html>
