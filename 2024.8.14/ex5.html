@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thay Đổi Hình Ảnh</title>
+  </head>
+  <body>
+    <img
+      id="image"
+      src="https://hoanghamobile.com/tin-tuc/wp-content/webp-express/webp-images/uploads/2023/07/anh-phong-canh-dep-7.jpg.webp"
+      alt="Placeholder Image"
+    />
+    <button onclick="changeImage()">Thay Đổi Hình Ảnh</button>
+    <script>
+      function changeImage() {
+        var imgElement = document.getElementById("image");
+        imgElement.src =
+          "https://hoanghamobile.com/tin-tuc/wp-content/webp-express/webp-images/uploads/2023/07/anh-phong-canh-dep.jpg.webp";
+      }
+    </script>
+  </body>
+</html>
