@@ -41,7 +41,7 @@
   border-bottom: 1px solid #ddd;
 }
 
-input[type="checkbox"] {
+input[type="hidden"] {
   margin-right: 15px;
   transform: scale(1.2);
   cursor: pointer;
@@ -73,4 +73,10 @@ button svg {
 
 button:hover svg {
   transform: scale(1.2);
+}
+.done::after {
+  content: "✔";
+  color: green;
+  font-size: 18px;
+  margin-left: 10px;
 }
